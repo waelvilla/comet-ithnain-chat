@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-webview/apple/RNCWebView.m b/node_modules/react-native-webview/apple/RNCWebView.m
+index 02005db..106f4ac 100644
+--- a/node_modules/react-native-webview/apple/RNCWebView.m
++++ b/node_modules/react-native-webview/apple/RNCWebView.m
+@@ -1267,7 +1267,7 @@ - (void)resetupScripts:(WKWebViewConfiguration *)wkWebViewConfig {
+     "})(window.history)\n", HistoryShimName
+   ];
+   WKUserScript *script = [[WKUserScript alloc] initWithSource:html5HistoryAPIShimSource injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:YES];
+-  [wkWebViewConfig.userContentController addUserScript:script];
++  // [wkWebViewConfig.userContentController addUserScript:script]; LINE DISABLED FOR APPLE PAY SUPPORT
+ 
+   if(_sharedCookiesEnabled) {
+     // More info to sending cookies with WKWebView

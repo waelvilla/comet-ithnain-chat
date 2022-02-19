@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"],
+      "assets/*": ["./assets/*"],
+      "screens/*": ["./src/screens/*"],
+      "redux/*": ["./src/redux/*"]
+    }
+  },
+  //Add any build/compiled folders here to stop vscode searching those
+  "exclude": ["node_modules", "build"]
+}
