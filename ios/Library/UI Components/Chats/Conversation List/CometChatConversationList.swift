@@ -34,7 +34,7 @@ public protocol ConversationListDelegate : AnyObject{
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public final class CometChatConversationList: UIViewController {
+public class CometChatConversationList: UIViewController {
     
     // MARK: - Declaration of Variables
     var conversationRequest: ConversationRequest?

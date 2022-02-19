@@ -2259,8 +2259,8 @@ public class CometChatMessageList: UIViewController, AVAudioRecorderDelegate, AV
                 self.blockedView.isHidden = true
                 self.tableViewBottomConstraint.constant = 0
             case .smartRepliesView:
-                self.smartRepliesView.isHidden = true
-                self.tableViewBottomConstraint.constant = 0
+                self.smartRepliesView?.isHidden = true
+                self.tableViewBottomConstraint?.constant = 0
             case .editMessageView:
                 self.editView.isHidden = true
                 self.tableViewBottomConstraint.constant = 0

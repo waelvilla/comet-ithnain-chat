@@ -19,7 +19,7 @@ target 'ithnain' do
 
   pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
 
-  pod 'CometChatPro', '3.0.9'
+  pod 'CometChatPro', '3.0.8'
   pod 'CometChatCalls', '2.1.1'
 
   target 'ithnainTests' do
