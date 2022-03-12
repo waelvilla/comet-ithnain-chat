@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ithnain II</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">0000000000000000000000000000000000000</string>
+    <string name="facebook_app_id">0000000000000000</string>
+</resources>

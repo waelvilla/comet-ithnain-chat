@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "000000000000",
+    "firebase_url": "https://ithnainbeta.firebaseio.com",
+    "project_id": "ithnainbeta",
+    "storage_bucket": "ithnainbeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:00000000000:android:00000000000",
+        "android_client_info": {
+          "package_name": "com.ithnain.ithnainbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "00000000000-000000000000000000000000000.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AAAAAAAAAAAAAAAAAAAAAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "00000000000-000000000000000000000000000.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "00000000000-000000000000000000000000000.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ithnain.ithnainbeta"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:00000000000:android:00000000000",
+        "android_client_info": {
+          "package_name": "com.ithnain.ithnaineducatorbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "00000000000-000000000000000000000000000.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AAAAAAAAAAAAAAAAAAAAAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "00000000000-000000000000000000000000000.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "00000000000-000000000000000000000000000.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ithnain.ithnainbeta"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
