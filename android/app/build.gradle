@@ -143,6 +143,7 @@ android {
         versionName "1.0.0"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary true
+        manifestPlaceholders = [file_provider: "com.ithnain.ithnainbeta"] 
     }
     splits {
         abi {
@@ -209,6 +210,10 @@ dependencies {
     addUnimodulesDependencies()
     implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
 
+    implementation 'com.cometchat:pro-android-chat-sdk:3.0.4'
+	implementation 'com.cometchat:pro-android-calls-sdk:2.1.1'
+    implementation 'com.google.android.material:material:<version>'
+    implementation(project(":uikit"))
     // implementation project(':@react-native-community_audio-toolkit')
     // implementation project(':react-native-notifications')
     // implementation 'com.google.firebase:firebase-core:16.0.0'
