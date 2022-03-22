@@ -135,6 +135,10 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    dataBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.ithnain.ithnainbeta"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -212,7 +216,7 @@ dependencies {
 
     implementation 'com.cometchat:pro-android-chat-sdk:3.0.4'
 	implementation 'com.cometchat:pro-android-calls-sdk:2.1.1'
-    implementation 'com.google.android.material:material:<version>'
+    implementation group: 'com.google.android.material', name: 'material', version: '1.4.0-alpha01'
     implementation(project(":uikit"))
     // implementation project(':@react-native-community_audio-toolkit')
     // implementation project(':react-native-notifications')

@@ -22,7 +22,7 @@ export default function App() {
         style={styles.button}
         onPress={() => {
           CometChatModule.navigateToChat({
-            userId: '1233333',
+            userId: '123123',
             username: 'USERNAME',
           });
         }}>
